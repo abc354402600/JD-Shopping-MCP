@@ -1,0 +1,15 @@
+最省事的上传方式：
+
+1. 解压 JD-Shopping-MCP.zip。
+2. 打开你的仓库：
+   https://github.com/abc354402600/JD-Shopping-MCP
+3. Add file -> Upload files。
+4. 把“解压后的 JD-Shopping-MCP 文件夹里面的所有内容”拖进去。
+   注意：不是把最外层 JD-Shopping-MCP 文件夹本身再套一层上传。
+5. GitHub 如果提示 README.md / .gitignore 已存在：
+   - 可以直接用压缩包里的版本覆盖；
+   - 或先删除仓库原来的 README/.gitignore 再上传。
+6. Commit changes。
+7. 下一步再去 Cloudflare Workers 部署。
+
+压缩包里已经包含源码、Cloudflare Workers 配置、MCP 工具、插件市场模板。

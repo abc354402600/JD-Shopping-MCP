@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jd-shopping",
+  "version": "0.1.0",
+  "description": "Read-only JD.com public product search, SKU parsing, price, specs and shop metadata via MCP.",
+  "author": {
+    "name": "abc354402600",
+    "url": "https://github.com/abc354402600"
+  },
+  "homepage": "https://github.com/abc354402600/JD-Shopping-MCP",
+  "repository": "https://github.com/abc354402600/JD-Shopping-MCP",
+  "keywords": ["jd", "jd.com", "shopping", "mcp", "price", "sku"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "JD Shopping",
+    "shortDescription": "查询京东公开商品信息",
+    "longDescription": "只读查询京东公开商品：搜索、SKU/链接解析、公开价格、规格、店铺、自营与官方旗舰店判断。",
+    "developerName": "abc354402600",
+    "category": "Business & Operations",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/abc354402600/JD-Shopping-MCP",
+    "defaultPrompt": [
+      "帮我在京东查这个商品的公开价格和规格",
+      "对比这几个京东 SKU",
+      "搜索京东公开商品并判断是否自营"
+    ],
+    "brandColor": "#E2231A"
+  }
+}

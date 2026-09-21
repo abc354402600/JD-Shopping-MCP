@@ -1,0 +1,24 @@
+{
+  "name": "jd-shopping-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only JD.com shopping MCP server for public product search, SKU parsing, pricing, specs, and shop metadata.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "typescript": "7.0.2",
+    "wrangler": "4.135.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
